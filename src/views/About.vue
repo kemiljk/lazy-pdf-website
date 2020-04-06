@@ -22,8 +22,8 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-        <v-col cols="12">
-          <a 
+      <v-col cols="12">
+        <a 
           href="https://www.producthunt.com/posts/lazy-pdf?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-lazy-pdf" 
           target="_blank" 
         >
@@ -37,10 +37,12 @@
         </a>
       </v-col>
       <v-col cols="12">
-        <h3 class="mb-3">Lazy PDF</h3>
+        <h3 class="mb-3">
+          Lazy PDF
+        </h3>
         <p
           class="body-1"
-        >Lazy PDF is a little free macOS utility that allows you to effortlessly create a PDF from a set of selected images. It's interfaceless and relies only on a Finder selection UI. 
+        >Lazy PDF is a little free macOS utility that allows you to effortlessly create a PDF from a set of selected images. It's interfaceless and relies only on a Finder selection UI.
         
         This is designed to be simple and have a low overhead to make it easier to grab a set of design files and throw them together into a PDF. 
         
