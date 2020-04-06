@@ -1,7 +1,6 @@
 <template>
   <v-app>
     <v-app-bar app color="#2C1E33">
-      <v-img src="./assets/Lazy-PDF-icon.png" max-height="40" max-width="40" contain />
       <v-spacer />
       <v-btn
         v-for="link in links"
@@ -19,6 +18,7 @@
       >
         <v-text class="font-weight-bold">Download</v-text>
       </v-btn>
+      <v-spacer />
     </v-app-bar>
     <v-content>
       <v-responsive width="900px">
