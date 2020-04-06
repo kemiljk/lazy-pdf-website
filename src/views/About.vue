@@ -46,6 +46,7 @@
           width="250px"
           height="55px"
           color="#fff"
+          style="border-radius: 10px;"
           light
           href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
         >
