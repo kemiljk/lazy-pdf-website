@@ -28,7 +28,6 @@
       >
         <v-text class="font-weight-bold">Download</v-text>
       </v-btn>
-      <v-spacer />
     </v-app-bar>
     <v-content>
       <v-responsive width="900px">
