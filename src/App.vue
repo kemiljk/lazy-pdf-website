@@ -44,7 +44,7 @@
       <v-col cols="12">
         <strong>
           Made with
-          <v-icon>mdi-vuejs</v-icon>in London.
+          <v-icon>mdi-vuejs</v-icon> in London.
         </strong>
       </v-col>
     </v-footer>
