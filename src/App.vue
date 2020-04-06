@@ -1,6 +1,14 @@
 <template>
   <v-app>
     <v-app-bar app color="#2C1E33">
+      <v-image 
+        class="d-none d-sm-block"
+        src="./assets/Lazy-PDF-icon.png"
+        max-height="40"
+        max-width="40"
+        contain
+      >
+      <v-image class="d-sm-none" src="null">
       <v-spacer />
       <v-btn
         v-for="link in links"
