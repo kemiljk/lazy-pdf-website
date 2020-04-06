@@ -9,7 +9,7 @@
           Lazy-PDF
         </h1>
         <h2
-          class="display font-weight-bold mb-3 mt-10"
+          class="display font-weight-medium mb-3 mt-3"
           aria-label="Karl's posts"
         >
           Effortless and interfaceless PDF creation.
@@ -22,10 +22,11 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col cols="12">
+      <v-col cols="6">
         <a 
           href="https://www.producthunt.com/posts/lazy-pdf?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-lazy-pdf" 
-          target="_blank" 
+          target="_blank"
+          class="my-2 mx-1 v-btn v-btn--contained"
         >
           <img 
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=191366&theme=light" 
@@ -36,19 +37,50 @@
           >
         </a>
       </v-col>
+      <v-spacer />
+      <v-col 
+        cols="6" 
+        class="text-right">
+        <v-btn
+          class="my-2 mx-1"
+          width="250px"
+          height="55px"
+          color="#fff"
+          light
+          href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
+        >
+          <v-text class="font-weight-bold title">
+            Download
+            <v-icon class="ml-4">
+              mdi-download
+            </v-icon>
+          </v-text>
+        </v-btn> 
+      </v-col>
       <v-col cols="12">
-        <h3 class="mb-3">
+        <h3 class="mb-3 display-1 font-weight-black">
           Lazy PDF
         </h3>
         <p
           class="body-1"
-        >Lazy PDF is a little free macOS utility that allows you to effortlessly create a PDF from a set of selected images. It's interfaceless and relies only on a Finder selection UI.
-        
-        This is designed to be simple and have a low overhead to make it easier to grab a set of design files and throw them together into a PDF. 
-        
+        >
+        Lazy PDF is a little free macOS utility that allows you to effortlessly create a PDF from a set of selected images. It's interfaceless and relies only on a Finder selection UI.
+        </p>
+        <p
+          class="body-1"
+        >
+        Lazy PDF is deliberately designed to be simple and have a low overhead, to make it easier to grab a set of design files and throw them together into a PDF. 
+        </p>
+        <p
+          class="body-1"
+        >
         It'll listen to your logical file order, so number your files if you want to order in sequence, otherwise, you can move them around afterwards in Preview. 
-        
-        Lazy PDF respects your image sizes so doesn't try to compress everything to printable sizes, ideal for sharing work to teammates and management.</p>
+        </p>
+        <p
+          class="body-1"
+        >
+        Lazy PDF respects your image sizes so doesn't try to compress everything to printable sizes, ideal for sharing work to teammates and management.
+        </p>
       </v-col>
     </v-row>
     <v-row class="text-left">
