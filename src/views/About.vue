@@ -40,7 +40,7 @@
       <v-spacer />
       <v-col 
         cols="12" sm="6" 
-        class="text-right">
+        class="text-right action-button">
         <v-btn
           class="my-2 mx-1"
           width="250px"
