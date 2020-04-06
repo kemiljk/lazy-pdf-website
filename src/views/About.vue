@@ -22,7 +22,7 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col cols="6">
+      <v-col cols="12" sm="6">
         <a 
           href="https://www.producthunt.com/posts/lazy-pdf?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-lazy-pdf" 
           target="_blank"
@@ -39,7 +39,7 @@
       </v-col>
       <v-spacer />
       <v-col 
-        cols="6" 
+        cols="12" sm="6" 
         class="text-right">
         <v-btn
           class="my-2 mx-1"
