@@ -8,7 +8,7 @@
         max-width="40"
         contain
       />
-      <v-img class="d-sm-none">
+      <v-img class="d-sm-none" />
       <v-spacer />
       <v-btn
         v-for="link in links"
