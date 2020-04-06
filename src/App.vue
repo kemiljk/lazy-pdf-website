@@ -7,7 +7,7 @@
         max-height="40"
         max-width="40"
         contain
-      >
+      />
       <v-img class="d-sm-none">
       <v-spacer />
       <v-btn
@@ -17,7 +17,9 @@
         text
         :to="link.url"
       >
-        <v-text class="font-weight-bold">{{ link.label }}</v-text>
+        <v-text class="font-weight-bold">
+          {{ link.label }}
+        </v-text>
       </v-btn>
       <v-btn
         class="my-2 mx-1"
