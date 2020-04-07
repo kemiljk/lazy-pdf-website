@@ -67,7 +67,6 @@
         >
         Effortlessly create a PDF from a set of selected images through an interfaceless system with only the Finder selection UI.
         </p>
-        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993877/Picking_selection_ckdioy.png" />
         <h3 class="mt-2 mb-3 title font-weight-black">
           Grab and go
         </h3>
@@ -76,6 +75,7 @@
         >
         Lazy PDF is deliberately designed to be simple and have a low overhead, to make it easier to grab a set of design files and throw them together into a PDF. 
         </p>
+        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993877/Picking_selection_ckdioy.png" />
         <h3 class="mt-2 mb-3 title font-weight-black">
           On your terms
         </h3>
@@ -84,7 +84,6 @@
         >
         Your logical file order is always respected, so number your files if you want to order in sequence, otherwise, move them around afterwards in any PDF viewer. 
         </p>
-        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993878/Rendered_PDF_zpdrza.png" />
         <h3 class="mt-2 mb-3 title font-weight-black">
           Compressless
         </h3>
@@ -93,6 +92,7 @@
         >
         Respecting your image sizes, Lazy PDF doesn't try to compress everything to printable sizes, ideal for sharing work with teammates and management.
         </p>
+        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993878/Rendered_PDF_zpdrza.png" />
       </v-col>
     </v-row>
   </v-container>
