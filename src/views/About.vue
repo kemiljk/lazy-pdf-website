@@ -59,7 +59,7 @@
         </v-btn> 
       </v-col>
       <v-col cols="12">
-        <h3 class="mb-3 display-1 font-weight-black">
+        <h3 class="mb-3 title font-weight-black">
           Simple and invisible
         </h3>
         <p
@@ -67,7 +67,7 @@
         >
         Effortlessly create a PDF from a set of selected images through an interfaceless system with only the Finder selection UI.
         </p>
-        <h3 class="mb-3 display-1 font-weight-black">
+        <h3 class="mt-2 mb-3 title font-weight-black">
           Grab and go
         </h3>
         <p
@@ -75,7 +75,7 @@
         >
         Lazy PDF is deliberately designed to be simple and have a low overhead, to make it easier to grab a set of design files and throw them together into a PDF. 
         </p>
-        <h3 class="mb-3 display-1 font-weight-black">
+        <h3 class="mt-2 mb-3 title font-weight-black">
           On your terms
         </h3>
         <p
@@ -83,7 +83,7 @@
         >
         Your logical file order is always respected, so number your files if you want to order in sequence, otherwise, move them around afterwards in any PDF viewer. 
         </p>
-        <h3 class="mb-3 display-1 font-weight-black">
+        <h3 class="mt-2 mb-3 title font-weight-black">
           Compressless
         </h3>
         <p
