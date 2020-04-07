@@ -80,7 +80,7 @@
         <p
           class="body-1"
         >
-        Lazy PDF respects your image sizes so doesn't try to compress everything to printable sizes, ideal for sharing work to teammates and management.
+        Lazy PDF respects your image sizes so doesn't try to compress everything to printable sizes, ideal for sharing work with teammates and management.
         </p>
       </v-col>
     </v-row>
