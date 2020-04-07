@@ -67,6 +67,7 @@
         >
         Effortlessly create a PDF from a set of selected images through an interfaceless system with only the Finder selection UI.
         </p>
+        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993877/Picking_selection_ckdioy.png" />
         <h3 class="mt-2 mb-3 title font-weight-black">
           Grab and go
         </h3>
@@ -83,6 +84,7 @@
         >
         Your logical file order is always respected, so number your files if you want to order in sequence, otherwise, move them around afterwards in any PDF viewer. 
         </p>
+        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993878/Rendered_PDF_zpdrza.png" />
         <h3 class="mt-2 mb-3 title font-weight-black">
           Compressless
         </h3>
@@ -93,22 +95,15 @@
         </p>
       </v-col>
     </v-row>
-    <v-row class="text-left">
-      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
-        <v-img :src="`${image.img}`" class="img" />
-      </v-col>
-    </v-row>
   </v-container>
 </template>
 
 <script>
-import lazyPDF from "./../data/lazyPDF.json";
 
 export default {
   name: "LazyPDF",
   data() {
     return {
-      images: lazyPDF,
       hero: "https://res.cloudinary.com/kejk/image/upload/v1585992488/macbook-pro-space-gray-on-the-wooden-table_e6bu8w.jpg",
       url: "https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
     };
