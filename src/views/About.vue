@@ -85,7 +85,7 @@
         Your logical file order is always respected, so number your files if you want to order in sequence, otherwise, move them around afterwards in any PDF viewer. 
         </p>
         <h3 class="mt-2 mb-3 title font-weight-black">
-          Compressless
+          Lossless
         </h3>
         <p
           class="body-1"
