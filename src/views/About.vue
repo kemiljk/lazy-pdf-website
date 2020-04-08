@@ -75,6 +75,7 @@
         >
         Lazy PDF is deliberately designed to be simple and have a low overhead, to make it easier to grab a set of design files and throw them together into a PDF. 
         </p>
+        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993877/Picking_selection_ckdioy.png" />
         <h3 class="mt-2 mb-3 title font-weight-black">
           On your terms
         </h3>
@@ -84,31 +85,34 @@
         Your logical file order is always respected, so number your files if you want to order in sequence, otherwise, move them around afterwards in any PDF viewer. 
         </p>
         <h3 class="mt-2 mb-3 title font-weight-black">
-          Compressless
+          Lossless
         </h3>
         <p
           class="body-1"
         >
         Respecting your image sizes, Lazy PDF doesn't try to compress everything to printable sizes, ideal for sharing work with teammates and management.
         </p>
-      </v-col>
-    </v-row>
-    <v-row class="text-left">
-      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
-        <v-img :src="`${image.img}`" class="img" />
+        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993878/Rendered_PDF_zpdrza.png" />
+        <h3 class="mt-2 mb-3 title font-weight-black">
+          Better than native
+        </h3>
+        <p
+          class="body-1"
+        >
+        macOS' native 1-click PDF creation (left) pushes all files into a printable page collection, Lazy PDF (right) leaves your images alone. Perfect for long design files such as mobile layouts, or ultrawide files when visualising a 21:9 video concept.
+        </p>
+        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1586353512/Apple_versus_Lazy_mhp5ey.png" />
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-import lazyPDF from "./../data/lazyPDF.json";
 
 export default {
   name: "LazyPDF",
   data() {
     return {
-      images: lazyPDF,
       hero: "https://res.cloudinary.com/kejk/image/upload/v1585992488/macbook-pro-space-gray-on-the-wooden-table_e6bu8w.jpg",
       url: "https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
     };
