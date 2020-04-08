@@ -23,6 +23,7 @@
       <v-btn
         class="my-2 mx-1"
         text
+        rounded
         href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
       >
         <v-text class="font-weight-medium">Download</v-text>
