@@ -13,6 +13,7 @@
         :key="`${link.label}--page-link`"
         class="my-2 mx-1"
         text
+        rounded
         :to="link.url"
       >
         <v-text class="font-weight-medium">
