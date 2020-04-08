@@ -50,7 +50,7 @@
           light
           href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
         >
-          <v-text class="font-weight-medium title">
+          <v-text class="font-weight-medium title" style="text-transform: capitalize;">
             Download
             <v-icon class="ml-4">
               mdi-download
