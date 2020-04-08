@@ -9,7 +9,7 @@
           Lazy PDF
         </h1>
         <h2
-          class="display mb-3 mt-3" style="line-height: 1.4rem"
+          class="headline mb-3 mt-3" style="line-height: 1.4rem"
           aria-label="Karl's posts"
         >
           Effortless and interfaceless PDF creation.
