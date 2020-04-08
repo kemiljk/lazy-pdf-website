@@ -3,7 +3,7 @@
     <v-row class="text-left">
       <v-col>
         <h1 
-          class="display-2 font-weight-black mb-3 mt-10" 
+          class="display-2 font-weight-black mb-3 mt-6" 
           aria-label="Lazy PDF product"
         >
           Lazy PDF
