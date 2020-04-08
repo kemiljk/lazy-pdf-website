@@ -93,6 +93,15 @@
         Respecting your image sizes, Lazy PDF doesn't try to compress everything to printable sizes, ideal for sharing work with teammates and management.
         </p>
         <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993878/Rendered_PDF_zpdrza.png" />
+        <h3 class="mt-2 mb-3 title font-weight-black">
+          Better than native
+        </h3>
+        <p
+          class="body-1"
+        >
+        macOS' native 1-click PDF creation (left) pushes all files into a printable page collection, Lazy PDF (right) leaves your images alone. Perfect for long design files such as mobile layouts, or ultrawide files when visualising a 21:9 video concept.
+        </p>
+        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1586353512/Apple_versus_Lazy_mhp5ey.png" />
       </v-col>
     </v-row>
   </v-container>
