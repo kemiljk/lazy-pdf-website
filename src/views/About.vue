@@ -9,7 +9,7 @@
           Lazy PDF
         </h1>
         <h2
-          class="display font-weight-medium mb-3 mt-3" style="line-height: 1.4rem"
+          class="display mb-3 mt-3" style="line-height: 1.4rem"
           aria-label="Karl's posts"
         >
           Effortless and interfaceless PDF creation.
@@ -50,7 +50,7 @@
           light
           href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
         >
-          <v-text class="font-weight-bold title">
+          <v-text class="font-weight-medium title">
             Download
             <v-icon class="ml-4">
               mdi-download
@@ -59,7 +59,7 @@
         </v-btn> 
       </v-col>
       <v-col cols="12">
-        <h3 class="mb-3 title font-weight-black">
+        <h3 class="mb-3 title font-weight-bold">
           Simple and invisible
         </h3>
         <p
@@ -67,7 +67,7 @@
         >
         Effortlessly create a PDF from a set of selected images through an interfaceless system with only the Finder selection UI.
         </p>
-        <h3 class="mt-2 mb-3 title font-weight-black">
+        <h3 class="mt-2 mb-3 title font-weight-bold">
           Grab and go
         </h3>
         <p
@@ -76,7 +76,7 @@
         Lazy PDF is deliberately designed to be simple and have a low overhead, to make it easier to grab a set of design files and throw them together into a PDF. 
         </p>
         <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993877/Picking_selection_ckdioy.png" />
-        <h3 class="mt-2 mb-3 title font-weight-black">
+        <h3 class="mt-2 mb-3 title font-weight-bold">
           On your terms
         </h3>
         <p
@@ -84,7 +84,7 @@
         >
         Your logical file order is always respected, so number your files if you want to order in sequence, otherwise, move them around afterwards in any PDF viewer. 
         </p>
-        <h3 class="mt-2 mb-3 title font-weight-black">
+        <h3 class="mt-2 mb-3 title font-weight-bold">
           Lossless
         </h3>
         <p
@@ -93,7 +93,7 @@
         Respecting your image sizes, Lazy PDF doesn't try to compress everything to printable sizes, ideal for sharing work with teammates and management.
         </p>
         <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1585993878/Rendered_PDF_zpdrza.png" />
-        <h3 class="mt-2 mb-3 title font-weight-black">
+        <h3 class="mt-2 mb-3 title font-weight-bold">
           Better than native
         </h3>
         <p
