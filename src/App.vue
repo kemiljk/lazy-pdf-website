@@ -24,7 +24,7 @@
         text
         href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
       >
-        <v-text class="font-weight-bold">Download</v-text>
+        <v-text class="font-weight-medium">Download</v-text>
       </v-btn>
     </v-app-bar>
     <v-content>
