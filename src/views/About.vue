@@ -84,6 +84,7 @@
         >
         Your logical file order is always respected, so number your files if you want to order in sequence, otherwise, move them around afterwards in any PDF viewer. 
         </p>
+        <v-img class="img" src="https://res.cloudinary.com/kejk/image/upload/v1587570775/Frame_10_zub1ud.png" />
         <h3 class="mt-2 mb-3 title font-weight-bold">
           Lossless
         </h3>
