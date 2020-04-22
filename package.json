@@ -1,6 +1,7 @@
 {
   "name": "lazy-pdf",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "license": "Copyright (C) KEJK 2020",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
