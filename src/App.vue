@@ -24,7 +24,7 @@
         class="my-2 mx-1"
         text
         rounded
-        href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
+        :href="`${url}`"
       >
         <v-text class="font-weight-medium">Download</v-text>
       </v-btn>
@@ -55,7 +55,8 @@ export default {
           label: "About",
           url: "/"
         }
-      ]
+      ],
+      url: "https://res.cloudinary.com/kejk/raw/upload/v1587568180/Lazy%20PDF%20-%20V1.1.zip" 
     };
   }
 };

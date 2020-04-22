@@ -48,7 +48,7 @@
           color="#fff"
           style="border-radius: 10px;"
           light
-          href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
+          :href="`${url}`"
         >
           <v-text class="font-weight-medium title" style="text-transform: capitalize;">
             Download
@@ -114,7 +114,7 @@ export default {
   data() {
     return {
       hero: "https://res.cloudinary.com/kejk/image/upload/v1585992488/macbook-pro-space-gray-on-the-wooden-table_e6bu8w.jpg",
-      url: "https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
+      url: "https://res.cloudinary.com/kejk/raw/upload/v1587568180/Lazy%20PDF%20-%20V1.1.zip"
     };
   }
 };
