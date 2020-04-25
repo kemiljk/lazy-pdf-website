@@ -22,7 +22,7 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col cols="12" sm="6">
+      <v-col cols="12" md="4">
         <a 
           href="https://www.producthunt.com/posts/lazy-pdf?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-lazy-pdf" 
           target="_blank"
@@ -37,10 +37,10 @@
           >
         </a>
       </v-col>
-      <v-spacer />
-      <v-col 
-        cols="12" sm="6" 
-        class="text-right">
+      <v-col
+        cols="12"
+        md="4"
+      >
         <v-btn
           class="my-2 mx-1"
           width="250px"
@@ -117,6 +117,11 @@ export default {
       hero: "https://res.cloudinary.com/kejk/image/upload/v1585992488/macbook-pro-space-gray-on-the-wooden-table_e6bu8w.jpg",
       url: "https://res.cloudinary.com/kejk/raw/upload/v1587568180/Lazy%20PDF%20-%20V1.1.zip"
     };
+  },
+  methods: {
+    onResize () {
+      this.isMobile = window.innerWidth < 600
+    },
   }
 };
 </script>
