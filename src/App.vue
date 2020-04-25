@@ -1,6 +1,10 @@
 <template>
   <v-app>
-    <v-app-bar app color="#2C1E33">
+    <v-app-bar 
+      app 
+      class="header" 
+      flat
+    >
       <v-img
         src="./assets/Lazy-PDF-icon.png"
         max-height="40"
