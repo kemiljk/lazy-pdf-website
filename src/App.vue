@@ -25,6 +25,7 @@
         </v-text>
       </v-btn>
       <v-btn
+        id="download"
         class="my-2 mx-1"
         text
         rounded
