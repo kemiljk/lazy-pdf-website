@@ -25,7 +25,6 @@
         </div>
       </div>
       <div class="py-4">
-        <div></div>
         <div>
           <div class="space-y-4 mt-8 mb-8">
             <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-50">
@@ -36,17 +35,19 @@
               interfaceless system with only the Finder selection UI.
             </p>
           </div>
-          <a :href="`${download.url}`" class="w-full md:w-min">
-            <button
-              class="flex justify-center items-center text-center font-medium w-full md:w-48 mt-2 md:mt-0 rounded-xl px-6 py-3 transition duration-500 ease focus:outline-none focus:ring-2 focus:ring-white bg-purple-900 hover:bg-purple-700 text-purple-100"
-            >
-              <download-icon
-                size="1.5x"
-                class="inline-block mr-4 text-purple-100"
-              />
-              <p class="font-medium text-lg uppercase">{{ download.text }}</p>
-            </button>
-          </a>
+          <div class="flex flex-col md:flex-row justify-center md:justify-start">
+            <a :href="`${download.url}`">
+              <button
+                class="flex justify-center items-center text-center font-medium w-full md:w-min rounded-lg px-6 py-3 transition duration-500 ease focus:outline-none focus:ring-2 focus:ring-white bg-purple-900 hover:bg-purple-700 text-purple-100"
+              >
+                <download-icon
+                  size="1x"
+                  class="inline-block mr-4 text-purple-100"
+                />
+                {{ download.text }}
+              </button>
+            </a>
+          </div>
           <Divider />
           <div class="space-y-4 mb-8">
             <h3 class="text-2xl font-bold text-gray-900 dark:text-gray-50">
