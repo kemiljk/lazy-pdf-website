@@ -6,7 +6,7 @@
       >
         <img src="../assets/Lazy-PDF-icon.png" class="block h-12 w-12 ml-4" />
         <div class="space-x-4 text-white mr-4">
-          <a href="`https://www.kejk.tech/`">
+          <a href="https://www.kejk.tech/">
             <button
               class="px-4 py-2 rounded-full text-xs text-white bg-gray-400 dark:bg-gray-700 hover:bg-gray-500 uppercase font-medium tracking-wider"
             >
